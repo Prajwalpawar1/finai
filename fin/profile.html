@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="profile-container">
+        <header>
+            <h1>Welcome, <span id="profile-name">User</span>!</h1>
+            <button id="logout-btn" class="btn">Logout</button>
+        </header>
+        
+        <div class="profile-content">
+            <div class="profile-card">
+                <h2>Your Information</h2>
+                <p><strong>Email:</strong> <span id="profile-email"></span></p>
+                <p><strong>Member Since:</strong> <span id="join-date"></span></p>
+            </div>
+            
+            <div class="action-card">
+                <h2>Get Started</h2>
+                <p>Access your financial dashboard to manage your money smartly.</p>
+                <a href="dashboard.html" class="btn">Go to Dashboard</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>
